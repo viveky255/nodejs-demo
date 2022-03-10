@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('viveky255-dockerhub')
+    DOCKERHUB_CREDENTIALS = credentials('viveky255-docker-hub')
     }
     stages { 
         stage('SCM Checkout') {
